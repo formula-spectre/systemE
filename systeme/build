@@ -1,5 +1,0 @@
-#!/bin/sh -e
-
-install -Dm 755 rc.boot.el "$1/lib/init/rc.boot.el"
-
-install -Dm 755 rc.shutdown.el "$1/lib/init/rc.shutdown.el"
